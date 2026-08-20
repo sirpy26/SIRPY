@@ -82,11 +82,26 @@ Each problem folder contains a walk-through `README.md` showing the problem, the
 | 3 | Quantum Mechanics | Nonlocal (integro-differential) | 1D Steady-State Hartree Equation | ✅ Verified ||
 | 4 | Quantum Mechanics | Local nonlinear cubic | Gross–Pitaevskii Equation | ✅ Verified ||
 | 5 | Integral Equations | Nonlinear Volterra, second kind | y(t) = t(1−t) + ∫₀ᵗ (t−s) y(s)² ds on [0, 1] — no ICs given; the equation supplies its own initial data | ✅ Verified ||
-| 6 | Integral Equations | Nonlinear Volterra, second kind, embedded free parameter | y(t) = g·t − t² + ∫₀ᵗ (t−s) y(s)² ds, y(1) = 0 — g recovered via terminal condition, cross-checked against y′(0) | ✅ Verified ||
-*(Numbering matches the SIRPY problem series posted publicly.)*
+| 5b | Integral Equations | Nonlinear Volterra, second kind, embedded free parameter | y(t) = g·t − t² + ∫₀ᵗ (t−s) y(s)² ds, y(1) = 0 — g recovered via terminal condition, cross-checked against y′(0) | ✅ Verified ||
+| 6 | Troesch's Problem | A classical test case originating in plasma physics |y'' = mu* sinh(mu*y), y(0) = 0, y(1) =1 | ✅ Verified ||
+| 7 | Stiff Problem |  A classic stiff linear initial-value problem |y'' + (101)*y' + 100*y = 0, y(0) = 1, y'(0) =-1 | ✅ Verified ||
+| 8 | Stiff Problem |  A classic stiff linear initial-value problem |y'' + (101)*y' + 100*y = 0, y(0) = 1, y'(0) =-1 | ✅ Verified ||
+| 9 | Thomas-Fermi (IVP and BVP) |  It appears naturally as one of the free coefficients of the Frobenius expansion. |y''  = y**(3/2)/sqrt(x) | ✅ Verified ||
+| 10 | The Blasius |  Solving a
+Famous Infinite-Domain Problem |2*f''' + f * f'' =0, f(0) =0, f'(0) =0, f'(infinity)=1 | ✅ Verified ||
+| 11 | Falkner-Skan |  Generalized Blasius |f'''  = - f * f'' -beta*(1- f'**2), f(0) =0, f'(0) =0, f'(infinity)=1 | ✅ Verified ||
+| 12 | Eigenvalue Problem |  A classical Sturm–Liouville eigenvalue problem |y'' = -lambda*y, y(0) =0, y(1) =0 | ✅ Verified ||
+| 13 | Integro-Differential Equation |  A hard integral, sixteen times over |y′ + y = int_0^x  sin(100(x − t)) * y(t), y(0) = 1 | ✅ Verified ||
+| 14 | Certificate of Nonexistence |  Can you prove there is no answer at all? |y'' + 3.52 eʸ = 0, y(0) = y(1) = 0 | ✅ Verified ||
+| 15 | The Fourth-Order Bratu Problem |  A beam under a load that grows with deflection |y'''' = λeʸ,  y(0) = y(1) = 0  | ✅ Verified ||
+| 16 | HIRES  |  Eight nonlinear equations, rate constants spanning five orders of magnitude| Eight Coupled Equations from Photochemistry  | ✅ Verified ||
+| 17 | Van der Pol Across Three Regimes |  Relaxation Cycles,
+Verified, and the Cost of Stiffness |y″ = μ(1−y²)y′ − y at μ = 10, 100, 1000  | ✅ Verified ||
+| 18 |  Lane–Emden  |  Starting Where the Equation Breaks |y″ = −2y′/x − y⁵, y(0) = 1, y′(0) = 0 | ✅ Verified ||
+
 
 ---
-
+*(Numbering matches the SIRPY problem series posted publicly.)*
 
 
 ## Submitting a problem
