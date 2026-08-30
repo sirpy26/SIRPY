@@ -1,0 +1,6 @@
+# Written by SIRPY deliver(): keeps certified hashes
+# byte-stable across platforms and download paths.
+* -text
+*.pdf binary
+*.png binary
+*.jpg binary

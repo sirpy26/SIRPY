@@ -1,0 +1,55 @@
+====================================================================
+ORDER & DELIVERY MANIFEST
+====================================================================
+Client          : Acme Labs
+Order id        : LQI-2026-Troesch-15-2026-08-29-T2
+Reference       : LQI-2026-Troesch-15
+Problem         : A plasma-confinement model.
+Stated equation : y'' = 15*sinh(15*y), y(0) =0, y(1) = 1 
+Ordered / Delivered : 2026-08-29 / 2026-08-29
+Terms version   : current published terms
+Terms location  : those supplied with your order confirmation and named by version in the delivery manifest
+Date            : 2026-08-29
+Generator       : SIRPY 0.59.15
+
+  [ ] Tier 1: Verified
+  [x] Tier 2: Certified Standard
+  [ ] Tier 3: Certified Premium
+  Tier 2 of 3 — items marked NOT IN THIS TIER are available in the tier named beside them.
+
+Custom modules ordered : None
+
+DELIVERABLES (system-checked):
+  [DELIVERED]      Cryptographically bound JSON artifact — LQI-2026-Troesch-15-T2.artifact.json
+  [DELIVERED]      Artifact SHA-256 file — LQI-2026-Troesch-15-T2.artifact.json.sha256
+  [DELIVERED]      Formal certificate (four claims) — LQI-2026-Troesch-15-T2.md
+  [DELIVERED]      Formal certificate (PDF) — LQI-2026-Troesch-15-T2.pdf
+  [DELIVERED]      Solution overview figure — LQI-2026-Troesch-15-T2.fig_solution.png
+  [DELIVERED]      Residual overview figure (log scale) — LQI-2026-Troesch-15-T2.fig_residual.png
+  [DELIVERED]      Constraint/BC residual bars — LQI-2026-Troesch-15-T2.fig_constraints.png
+  [DELIVERED]      Interface-jump per node figure — LQI-2026-Troesch-15-T2.fig_interfaces.png
+  [INTERNAL]       Staff companion (.txt) — retained by LQI in _internal/ - not included in the client transmission
+  [NOT IN THIS TIER] Premium analytics addendum — available in Tier 3
+  [NOT IN THIS TIER] Premium addendum (PDF) — available in Tier 3
+  [NOT IN THIS TIER] Per-component solution panels — available in Tier 3
+  [NOT IN THIS TIER] Invariant drift figure — available in Tier 3
+  [NOT IN THIS TIER] Worst-residual layer zoom — available in Tier 3
+  [NOT IN THIS TIER] Step width vs recurrence amplification — available in Tier 3
+  [NOT IN THIS TIER] Per-segment worst residual — available in Tier 3
+  [NOT IN THIS TIER] Line-ending guard (.gitattributes) — available in Tier 3
+  [NOT IN THIS TIER] Hash self-check (verify_artifact.py) — available in Tier 3
+
+ARTIFACT BINDING:
+  file   : LQI-2026-Troesch-15-T2.artifact.json
+  sha256 : c751490cd3108fa301eaaffbbbaff6c4bc5b78494a0d801d90f0a1853cc35704
+  sha256 (grouped) : c751490c d3108fa3 01eaaffb bbaff6c4 bc5b7849 4a0d801d 90f0a185 3cc35704
+
+Reproduction scope : headline numbers recomputable from the artifact + stated
+                     equation (Python + sha256sum); coverage as stated above.
+
+ORDER FULFILLMENT : DELIVERED IN FULL (every promised item above system-checked present)
+
+MATHEMATICAL FINDING : solved+verified
+  (The finding is a measurement, not a fulfillment state; a NOT VERIFIED
+   finding is a completed engagement — see the certificate.)
+====================================================================
