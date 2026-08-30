@@ -95,8 +95,7 @@ Famous Infinite-Domain Problem |2*f''' + f * f'' =0, f(0) =0, f'(0) =0, f'(infin
 | 14 | Certificate of Nonexistence |  Can you prove there is no answer at all? |y'' + 3.52 eʸ = 0, y(0) = y(1) = 0 | ✅ Verified ||
 | 15 | The Fourth-Order Bratu Problem |  A beam under a load that grows with deflection |y'''' = λeʸ,  y(0) = y(1) = 0  | ✅ Verified ||
 | 16 | HIRES  |  Eight nonlinear equations, rate constants spanning five orders of magnitude| Eight Coupled Equations from Photochemistry  | ✅ Verified ||
-| 17 | Van der Pol Across Three Regimes |  Relaxation Cycles,
-Verified, and the Cost of Stiffness |y″ = μ(1−y²)y′ − y at μ = 10, 100, 1000  | ✅ Verified ||
+| 17 | Van der Pol Across Three Regimes |  Relaxation Cycles,Verified, and the Cost of Stiffness |y″ = μ(1−y²)y′ − y at μ = 10, 100, 1000  | ✅ Verified ||
 | 18 |  Lane–Emden  |  Starting Where the Equation Breaks |y″ = −2y′/x − y⁵, y(0) = 1, y′(0) = 0 | ✅ Verified ||
 
 
