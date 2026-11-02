@@ -100,6 +100,8 @@ Each problem folder contains a walk-through `README.md` showing the problem, the
 | 18 |  [Lane–Emden](https://github.com/sirpy26/SIRPY/blob/main/Problems/linkedin_18.pdf)  |  Starting Where the Equation Breaks |y″ = −2y′/x − y⁵, y(0) = 1, y′(0) = 0 | ✅ Verified ||
 | 19 | [Parameter estimation](https://github.com/sirpy26/SIRPY/tree/main/Problems/torricelli) | First-order ODE, non-unique at h=0 | Torricelli draining tank (SIMIODE 1-015) — b = 0.002581 [0.002562, 0.002600]; verified on [0,100] to 4.31e-12 | ✅ Verified |
 | 20 | [Pharmacokinetics](https://github.com/sirpy26/SIRPY/tree/main/Problems/theophylline) | Linear ODE system, parameter estimation | Theophylline after one oral dose (R dataset Theoph) — two answers fit equally well (flip-flop); clearance 0.0199 [0.0181, 0.0219] L/h/kg | ✅ Verified |
+| 21 | [Certified Numerical Computation](https://github.com/sirpy26/SIRPY/tree/main/Problems/eight_problems) | Initial-value ODEs, stiff ODEs, branch points, finite-time blow-up | Eight demonstrations: proven forward-error bounds, singularity detection, branch-point handling, and 3,388-piece Van der Pol solution; includes BVPs, a Volterra equation, and parameter estimation | ✅ Demonstrated |
+
 
 *(Numbering matches the SIRPY problem series posted publicly.)*
 
