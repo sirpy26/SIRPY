@@ -1,0 +1,154 @@
+{
+  "sirpy_version": "0.66.1",
+  "fit_all": {
+    "b": 0.002580816828657248,
+    "se": 8.784904755237763e-06,
+    "q": 2.364624251592784,
+    "lo": 0.00256004382982508,
+    "hi": 0.002601589827489416,
+    "sse": 0.010434079519456107,
+    "s": 0.03860806636564087,
+    "n": 8,
+    "residuals": [
+      0.0,
+      -0.08087654973881264,
+      0.012260008469267447,
+      0.038524165806709476,
+      -0.02611780077759196,
+      0.0284801438644946,
+      -0.009205948333289804,
+      0.013335704752934774,
+      -0.022423100701267407
+    ]
+  },
+  "T": [
+    82.47479889924928,
+    81.8162596925248,
+    83.14402529344522
+  ],
+  "c": [
+    0.6660125679966074,
+    0.6606518317585377,
+    0.671373304234677
+  ],
+  "fit_two_param": {
+    "h0": 11.114786899776643,
+    "b": 0.002586367635001955,
+    "se_h0": 0.022220265567448754,
+    "se_b": 1.1921930258775198e-05,
+    "q": 2.364624251592784,
+    "dof": 7,
+    "sse": 0.009813438724245855,
+    "ci_h0": [
+      11.06224432093902,
+      11.167329478614265
+    ],
+    "ci_b": [
+      0.0025581767495862573,
+      0.002614558520417653
+    ],
+    "corr": 0.6991887992230077
+  },
+  "fit_first5": {
+    "b": 0.0025770667456159195,
+    "se": 2.98871156701661e-05,
+    "q": 3.1824463052837078,
+    "lo": 0.0024819526047758127,
+    "hi": 0.0026721808864560263,
+    "sse": 0.008811359262759635,
+    "s": 0.05419520047248844,
+    "n": 4,
+    "residuals": [
+      0.0,
+      -0.08004382574894997,
+      0.01474389428145173,
+      0.04187727764695737,
+      -0.02081481252686146
+    ]
+  },
+  "prediction": [
+    {
+      "t": 22.968,
+      "measured": 5.75,
+      "predicted": 5.784963586653694,
+      "error": 0.03496358665369392,
+      "band": [
+        5.621645808063436,
+        5.950619839631584
+      ],
+      "pred_interval": [
+        5.546629739028539,
+        6.023297434278849
+      ]
+    },
+    {
+      "t": 30.603,
+      "measured": 4.4,
+      "predicted": 4.398325449202477,
+      "error": -0.001674550797523544,
+      "band": [
+        4.209298988993448,
+        4.591503497557198
+      ],
+      "pred_interval": [
+        4.1409014484685045,
+        4.655749449936449
+      ]
+    },
+    {
+      "t": 39.503,
+      "measured": 3.0,
+      "predicted": 3.021391301561228,
+      "error": 0.021391301561227927,
+      "band": [
+        2.8203978743349722,
+        3.2293021849591064
+      ],
+      "pred_interval": [
+        2.753907230308357,
+        3.2888753728140987
+      ]
+    },
+    {
+      "t": 47.663,
+      "measured": 2.0,
+      "predicted": 1.985453408440304,
+      "error": -0.014546591559696065,
+      "band": [
+        1.7905165606946412,
+        2.1904607091889723
+      ],
+      "pred_interval": [
+        1.721377898328206,
+        2.249528918552402
+      ]
+    }
+  ],
+  "past_empty": {
+    "status": "solved+verified",
+    "branch_point": 82.47478538,
+    "residual": 4.311193811111924e-12,
+    "h_sirpy": {
+      "85.0": 0.0,
+      "90.0": 0.0,
+      "100.0": 0.0
+    },
+    "h_formula": {
+      "85.0": 0.010405726052041214,
+      "90.0": 0.09240951032854647,
+      "100.0": 0.5011946986197638,
+      "160.0": 9.807679181036857
+    },
+    "log": [
+      "run summary \u2014 series degree 20, iterations=20 (sirpy default), 30 series segment(s).",
+      "verification by substitution \u2014 VERIFIED: satisfies the equation to 4.31e-12 on [0, 100]. Checked by exact coefficient differentiation at interior points, not at the interface nodes. Interface continuity across 29 node(s): max one-sided jump in (y..y0) = 3.0e-13 \u2014 each side's own coefficients evaluated exactly at the node. Also checked: initial data to 0.00e+00.",
+      "stiffness EMERGED mid-interval \u2014 the local Jacobian |eigenvalue| grew from 0.0242 at x=0 to 267 near x ~ 82.47 (ratio ~ 1.1e+04). The segment marcher adapted its step automatically; for extreme stiffness consider stiff_method='scipy'.",
+      "an earlier signal near 82.47478538 (the steps shrank toward a point) was a BRANCH POINT of the equation, not a pole: the solution stays finite there. Superseded by the verdict below.",
+      "BRANCH POINT of the equation at x = 82.47478538: the square root's radicand vanishes at y = 0, where the equation is not Lipschitz. The classical maximal solution continues as the CONSTANT y = 0 up to x = 100, and that glued solution is what is returned and verified."
+    ]
+  },
+  "solves": {
+    "all": 56,
+    "verified": 56
+  }
+}
